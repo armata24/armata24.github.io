@@ -1,3 +1,13 @@
+@font-face {
+  font-family:'Horyzen Title';
+  src:url('assets/fonts/HoryzenTitle.ttf') format('truetype');
+  font-display:swap
+}
+@font-face {
+  font-family:'Horyzen';
+  src:url('assets/fonts/Horyzen-Bold.ttf') format('truetype');
+  font-display:swap
+}
 :root {
   --bg:#F5F5F5;
   --surface:#ffffff;
@@ -137,8 +147,22 @@ h1 span {
   -webkit-text-stroke:1px var(--primary);
   text-shadow:0 2px 12px rgba(0,0,0,.65)
 }
+.hero-images .brand-copy h1 {
+  font-family:'Horyzen Title','Poppins',sans-serif;
+  letter-spacing:-1.6px
+}
 .hero-images .brand-copy h1 span {
-  color:#fff
+  color:#fff;
+  display:block;
+  font-family:'Horyzen Title','Poppins',sans-serif;
+  font-size:clamp(17px,4vw,42px);
+  line-height:1.1
+}
+.hero-images .brand-copy h3 {
+  margin:10px 0 0;
+  font-family:'Poppins',Arial,sans-serif;
+  font-size:clamp(12px,2.8vw,22px);
+  line-height:1.35
 }
 .brand-copy {
   width:100%
@@ -481,5 +505,21 @@ th {
   }
   .hero {
     padding:35px 0
+  }
+  .hero-images .brand-copy {
+    right:16px;
+    bottom:16px;
+    left:16px
+  }
+  .hero-images .brand-copy h1 {
+    font-size:clamp(24px,7vw,38px);
+    letter-spacing:-1px;
+    margin:0
+  }
+  .hero-images .brand-copy h1 span {
+    font-size:clamp(18px,5vw,30px)
+  }
+  .hero-images .brand-copy h3 {
+    font-size:clamp(12px,3vw,18px)
   }
 }
