@@ -453,8 +453,10 @@ th {
   .hero-images {
     grid-template-columns:1fr
   }
-  .hero-photo-left,
   .hero-photo-right {
+    display:none
+  }
+  .hero-photo-left {
     grid-column:1
   }
   .links {
