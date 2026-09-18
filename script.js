@@ -48,9 +48,7 @@ const heroSlideGroups = [
     'assets/images/KELAS11.jpg',
     'assets/images/KELAS13.jpg',
     'assets/images/KELAS14.jpg',
-    'assets/images/KELAS199.jpg'
-  ],
-  [
+    'assets/images/KELAS199.jpg',
     'assets/images/1.jpg',
     'assets/images/2.jpg',
     'assets/images/3.jpg',

@@ -110,9 +110,8 @@ h1 span {
   margin-bottom:1.25rem
 }
 .hero-images {
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:12px;
+  position:relative;
+  display:block;
   width:100%
 }
 .hero-photo {
@@ -128,11 +127,18 @@ h1 span {
   transition:opacity .35s ease, transform .35s ease;
   background:linear-gradient(135deg,#eaf1f8,#f8fafc)
 }
-.hero-photo-left {
-  grid-column:1
+.hero-images .brand-copy {
+  position:absolute;
+  right:24px;
+  bottom:24px;
+  left:24px;
+  z-index:1;
+  color:#fff;
+  -webkit-text-stroke:1px var(--primary);
+  text-shadow:0 2px 12px rgba(0,0,0,.65)
 }
-.hero-photo-right {
-  grid-column:2
+.hero-images .brand-copy h1 span {
+  color:#fff
 }
 .brand-copy {
   width:100%
@@ -449,15 +455,6 @@ th {
   }
   .brand-block {
     display:block
-  }
-  .hero-images {
-    grid-template-columns:1fr
-  }
-  .hero-photo-right {
-    display:none
-  }
-  .hero-photo-left {
-    grid-column:1
   }
   .links {
     display:none
