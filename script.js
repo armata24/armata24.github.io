@@ -39,9 +39,9 @@ if (toggle && links) {
 const heroImages = document.querySelectorAll('.hero-photo');
 const heroSlideGroups = [
   [
+    'assets/images/tangga.jpg',
     'assets/images/badminton.jpg',
     'assets/images/nobar.jpg',
-    'assets/images/tangga.jpg',
     'assets/images/KELAS1.jpg',
     'assets/images/KELAS1I7.jpg',
     'assets/images/KELAS10.jpg',
