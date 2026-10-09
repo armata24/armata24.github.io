@@ -11,14 +11,14 @@
   font-display:swap
 }
 :root {
-  --bg:#F5F5F5;
-  --surface:#ffffff;
-  --text:#111827;
-  --muted:#64748b;
-  --line:#dbe3ee;
-  --primary:#0b1f3a;
-  --accent:#163f73;
-  --navy-soft:#eaf1f8
+  --bg:#101a2b;
+  --surface:#111b2e;
+  --text:#e5edf7;
+  --muted:#a3b2c7;
+  --line:#29374d;
+  --primary:#07111f;
+  --accent:#8ab4e8;
+  --navy-soft:#1c2b40
 }
 * {
   box-sizing:border-box
@@ -106,7 +106,7 @@ h1 {
 }
 h1 span {
   color:transparent;
-  background:linear-gradient(110deg,var(--primary),var(--accent));
+  background:linear-gradient(110deg,#c0dcff,var(--accent));
   background-clip:text
 }
 .intro {
@@ -137,7 +137,7 @@ h1 span {
   box-shadow:0 18px 36px rgba(11,31,58,.16);
   object-fit:cover;
   transition:opacity .35s ease, transform .35s ease;
-  background:linear-gradient(135deg,#eaf1f8,#f8fafc)
+  background:linear-gradient(135deg,#17263b,#0f192a)
 }
 .hero-images .brand-copy {
   position:absolute;
@@ -220,10 +220,10 @@ h1 span {
   font-size:10px
 }
 .mini-schedule-table tbody tr:nth-child(even) {
-  background:#f8fafc
+  background:#162237
 }
 .mini-schedule-table tbody tr:hover {
-  background:#eaf1f8
+  background:#1c2b40
 }
 .actions {
   display:flex;
@@ -238,8 +238,8 @@ h1 span {
   padding:11px 15px;
   border:1px solid var(--line);
   border-radius:10px;
-  color:var(--primary);
-  background:#fff;
+  color:var(--text);
+  background:var(--surface);
   font-size:12px;
   font-weight:600;
   text-decoration:none;
@@ -277,7 +277,7 @@ h1 span {
   font-size:20px
 }
 .card:hover {
-  border-color:#9ab1ca;
+  border-color:#55749c;
   box-shadow:0 16px 30px rgba(15,23,42,.12)
 }
 .card h3 {
@@ -323,16 +323,16 @@ h1 span {
   font-weight:600
 }
 .todo {
-  background:#fff5d6;
-  color:#9a6700
+  background:#443519;
+  color:#f5cf78
 }
 .doing {
-  background:#eaf1f8;
-  color:var(--accent)
+  background:#1c2b40;
+  color:#a9cefa
 }
 .done {
-  background:#e9f8ef;
-  color:#167044
+  background:#163629;
+  color:#8ee0b2
 }
 .table-wrap {
   overflow:auto;
@@ -454,7 +454,7 @@ th {
   display:block;
   border:1px solid var(--line);
   border-radius:16px;
-  background:#fff;
+  background:var(--surface);
   box-shadow:0 12px 28px rgba(15,23,42,.08)
 }
 .footer {
